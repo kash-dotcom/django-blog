@@ -1,5 +1,5 @@
 ---
-name: User Story
+name: User Story - UPDATE
 about: Template to create a user story
 title: ''
 labels: ''
