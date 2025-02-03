@@ -52,7 +52,7 @@ body {
 }
 
 .author {
-    color: white;
+    background: #188181;
     margin: 4px;
     text-transform: uppercase;
 }
