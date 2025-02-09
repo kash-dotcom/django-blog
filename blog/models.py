@@ -30,7 +30,7 @@ class Comment(models.Model):
                              null=True, blank=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE,
                                related_name="comments_author")
-    body = models.TextField(default="What do you think?")
+    body = models.TextField(default="")
     approved = models.BooleanField(default=False)
     created_on = models.DateTimeField(auto_now=True)
     challenge = models.FloatField(default=3.5)
