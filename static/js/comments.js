@@ -23,7 +23,7 @@ for (let button of deleteButtons) {
       deleteModal.show();
     });
   }
-  
+
 for (let button of editButtons) {
   button.addEventListener("click", (e) => {
     let commentId = e.target.getAttribute("comment_id");
