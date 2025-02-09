@@ -140,6 +140,7 @@
       {% block content %}
       <!-- Content Goes here -->
       {% endblock content %}
+   
     </main>
 
     <!-- Footer -->
@@ -160,6 +161,8 @@
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
-    <script src="{% static 'js/script.js' %}"></script>
+    
+    {% block extras %}
+    {% endblock extras %}
   </body>
 </html>
