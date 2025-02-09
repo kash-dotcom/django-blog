@@ -9,10 +9,10 @@ assignees: ''
 
 As a **role** I can **capability** so that **received benefit**
 
-- **AC1: **
+- **AC1:**
 
-- **AC2: **
+- **AC2:**
 
-- **AC3: **
+- **AC3:**
 
-- **AC4: **
+- **AC4:**
